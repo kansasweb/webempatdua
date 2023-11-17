@@ -1,0 +1,61 @@
+html, body, nav {
+    margin: auto;
+    padding: 15px;
+    border: 0cap;
+}
+
+h1, p {
+    background-color: white;
+    width: max-content;
+    border: 0cap;
+    padding: 6px;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    padding: 6px;
+    background-color: white;
+}
+
+h3 {
+  display: flex;
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-left: 15%;
+}
+
+.menuRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+body {
+    background-image: url('images/Gold\ Yellow\ Ochre\ Green\ Fall\ Themed\ Class\ Schedule\ \(1\).png');
+    background-size: cover;
+}
+
+img {
+    height: 500px;
+    width: 750px;
+    text-align: center;
+}
+
+absen {
+    display: flex;
+    flex-direction: column;
+}
